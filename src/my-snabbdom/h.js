@@ -17,6 +17,4 @@ export default function(sel, data, c) {
     } else {
         throw new Error('third param wrong')
     }
-
-
 }
