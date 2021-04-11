@@ -1,0 +1,23 @@
+{
+  "name": "vdom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve  --env development --open --config webpack.config.js",
+    "build": "webpack  --env production --config webpack.config.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.1",
+    "snabbdom": "^3.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
